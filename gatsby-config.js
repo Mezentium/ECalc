@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/ECalc",
   siteMetadata: {
     title: "Gatsby Starter - Forty V2",
     author: "Hunter Chang",
