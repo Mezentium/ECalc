@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import PageBanner from '../components/PageBanner'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import pic12 from '../assets/images/pic12.jpg'
+import pic13 from '../assets/images/pic13.jpg'
+import pic14 from '../assets/images/pic14.jpg'
 
 const Residential = (props) => (
     <Layout>
@@ -16,8 +16,7 @@ const Residential = (props) => (
         </Helmet>
 
         <PageBanner title='Residential Calculations' 
-                    bannerContent = {['Lorem ipsum dolor sit amet nullam consequat',
-                                      'sed veroeros. tempus adipiscing nulla.']} />
+                    bannerContent = {['Your Florida Residential Energy Calculations and Heat Load Calculations provider.']} />
 
         <div id="main">
             <section id="one">
@@ -25,55 +24,66 @@ const Residential = (props) => (
                     <header className="major">
                         <h2>Sed amet aliquam</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>E-Calc LLC is the premier provider of Residential Energy Calculations in Florida: If you are building a new home or 
+                        addition or renovating an existing home in Florida, Energy and Load Calculations are required by the State of 
+                        Florida to ensure that the HVAC equipment is sized correctly and that the home is being built to current energy 
+                        efficiency standards per Florida Energy Code Compliance.</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
+                    <div className="image">
+                        <img src={pic12} alt="" />
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>What's Included</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                            <ul>
+                                <li>Cover Page</li>
+                                <li>EPL Display Card – Energy Performance Level – Posted at job Site</li>
+                                <li>R405-2017 Energy Efficiency Calculations – for Permitting or R402-2017 Short Form</li>
+                                <li>Checklists and Mandatory Requirements</li>
+                                <li>Whole Home Leakage Page for Blower Door Testing (yes we provide blower door testing)</li>
+                                <li>Duct Leakage Form if required (yes we provide duct leakage testing too)</li>
+                                <li>Manual S and J Calculations – for Permitting – Equipment Sizing (S) and Load (J)</li>
+                                <li><Link to="/ductdesign">Duct Design</Link> is available at an additional charge  – Price TBD</li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
+                    <div className="image">
+                        <img src={pic13} alt="" />
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>What's Required</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                            <ul>
+                                <li>Address of Project and / or front door orientation</li>
+                                <li>Email Plans to ecals@ecalcs.com – floor plan and wall cross section</li>
+                                <li>Window schedule with SHGC and U factors – not totally required if the basic type 
+                                    of windows being used is specified (Example: PGT Low E Single Pane Aluminum Impact)</li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
+                    <div className="image">
+                        <img src={pic14} alt="" />
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Completion</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+                            <p>Once the Florida Energy calculations are completed they will be automatically 
+                               emailed upon payment using Debit or Credit card as one combine and signed PDF 
+                               file.  Cash and checks are accepted, and Florida Energy Calculations can be 
+                               hand delivered or mailed if necessary. Payment terms are available upon request.</p>
                         </div>
                     </div>
                 </section>
