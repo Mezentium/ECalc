@@ -30,6 +30,9 @@ class HomeIndex extends React.Component {
     </article> 
     */
 
+    // emailjs account login: gowkaizer@yahoo.com/webber
+    // outlook account login: ecalcs/webber78
+
     render() {
 
         return (
@@ -50,23 +53,23 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
                                 <h3>Residential Calculations</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <p>Florida Residential Energy Calculations and Heat Load Calculations</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/residential" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
                                 <h3>Commercial Calculations</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>Light Commercial Energy Calculations in Florida</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/commercial" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Duct Design</h3>
-                                <p>Lorem etiam nullam</p>
+                                <p>Duct design for your new construction or remodel</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/ductdesign" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                         </article>

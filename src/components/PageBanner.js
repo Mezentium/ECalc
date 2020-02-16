@@ -1,17 +1,16 @@
 import React from 'react'
 
-const BannerCommercial = (props) => (
+const PageBanner = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>Commercial Calculations</h1>
+                <h1>{props.title}</h1>
             </header>
             <div className="content">
-                <p>Lorem ipsum dolor sit amet nullam consequat<br />
-                sed veroeros. tempus adipiscing nulla.</p>
+                <p>{props.bannerContent.map((item,i) => <>{item}<br/></>)}</p>
             </div>
         </div>
     </section>
 )
 
-export default BannerCommercial
+export default PageBanner
