@@ -22,7 +22,7 @@ const Residential = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Residential servicing</h2>
                     </header>
                     <p>E-Calc LLC is the premier provider of Residential Energy Calculations in Florida: If you are building a new home or 
                         addition or renovating an existing home in Florida, Energy and Load Calculations are required by the State of 
